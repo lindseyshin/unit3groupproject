@@ -1,0 +1,17 @@
+body{
+    background-color: cornsilk;
+}
+fieldset{
+    color: sienna;
+}
+ul, li{
+    padding-bottom: 1rem;
+    
+
+}
+
+.button{
+    padding-left: 26rem;
+    padding-top: 5rem;
+    
+}
