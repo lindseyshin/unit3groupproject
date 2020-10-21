@@ -1,0 +1,187 @@
+
+
+/* book now page */
+
+
+body{
+    background-color: cornsilk;
+}
+
+
+
+fieldset{
+    color: sienna;
+    font-size: 2rem;
+    text-align: left;
+}
+ul, li{
+    padding-bottom: 1rem;
+
+}
+
+.button{
+    padding-left: 26rem;
+    padding-top: 5rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* GENERAL PAGE SETUP */
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    background-color: #a9a9a9;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* TYPOGRAPHY */
+
+h1, h2, h3, h4, h4, h6 {
+    font-family: 'Sonsie One', cursive;
+    color: #2a2a2a
+}
+
+p, input, li {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #2a2a2a;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.2rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+p, li {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+
+/* HEADER LAYOUT */
+
+nav, article, aside, footer {
+    background-color: white;
+    padding: 1%;
+}
+
+.header-img{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-items: left;
+}
+
+nav {
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    height: auto;
+    position: sticky;
+}
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    align-items: center;
+    display: flex;
+}
+nav li {
+    display: inline;
+    text-align: left;
+    flex: 1;
+    padding: 0;
+    margin: 0;
+}
+nav a {
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+nav form {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+}
+
+input {
+    font-size: 1.6rem;
+    height: 32px;
+}
+input[type=search] {
+    flex: 3;
+}
+input[type="submit"] {
+    flex: 1;
+    margin-left: 1rem;
+    background: #333;
+    border: 0px;
+    color: white;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+}
+
+.home img {
+    border: 5px solid lightblue;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 3%;
+}
+
+.box {
+    width: 350px;
+    height: 400px;
+    background-color: lightblue;
+    margin: 0 auto;
+}    
