@@ -108,7 +108,7 @@ nav, article, aside, footer {
 }
 
 nav {
-    background-color: lightblue;
+    background-color: #78cbff;
     display: flex;
     align-items: center;
     margin-bottom: 10px;
