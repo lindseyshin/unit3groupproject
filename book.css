@@ -34,8 +34,6 @@ ul, li{
 
 
 
-
-
 /* GENERAL PAGE SETUP */
 
 *, *::after, *::before{
@@ -108,7 +106,7 @@ nav, article, aside, footer {
 }
 
 nav {
-    background-color: lightblue;
+    background-color: #78cdff;
     display: flex;
     align-items: center;
     margin-bottom: 10px;
@@ -169,7 +167,7 @@ input[type="submit"] {
 }
 
 .home img {
-    border: 5px solid lightblue;
+    border: 5px solid #78cdff;
 }
 
 .cards {
@@ -182,6 +180,6 @@ input[type="submit"] {
 .box {
     width: 350px;
     height: 400px;
-    background-color: lightblue;
+    background-color: #78cdff;
     margin: 0 auto;
 }    
