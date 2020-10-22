@@ -34,8 +34,6 @@ ul, li{
 
 
 
-
-
 /* GENERAL PAGE SETUP */
 
 *, *::after, *::before{
@@ -108,7 +106,11 @@ nav, article, aside, footer {
 }
 
 nav {
+<<<<<<< HEAD
     background-color: #78cbff;
+=======
+    background-color: #78cdff;
+>>>>>>> 97784bc8491eed994de081eb52cc72ff2c1f8bb5
     display: flex;
     align-items: center;
     margin-bottom: 10px;
@@ -169,7 +171,7 @@ input[type="submit"] {
 }
 
 .home img {
-    border: 5px solid lightblue;
+    border: 5px solid #78cdff;
 }
 
 .cards {
@@ -182,6 +184,6 @@ input[type="submit"] {
 .box {
     width: 350px;
     height: 400px;
-    background-color: lightblue;
+    background-color: #78cdff;
     margin: 0 auto;
 }    
