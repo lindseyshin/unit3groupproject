@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,13 +8,10 @@
     <meta property="og:image" content="">
     <meta property="og:title" content="">
     <meta property="og:description" content="">
-
     <title>Cinema Films</title>
     <link rel="stylesheet" href="book.css">
     <link rel="shortcut icon" href="" type="image/x-icon">
-
 </head>
-
 <body>
     <nav>
         <ul>
@@ -26,24 +22,21 @@
         </ul>
         <form>
             <input type="search" name="query" placeholder="Search...">
-            <input type="submit" name="submit" id="submit" value="search">
+            <input type="submit" name="submit" id="submit" value="SEARCH">
         </form>
     </nav>
-
-        <form action="" method="POST">
-            <h1>Book Now !</h1>
+        <h1>Book Now!</h1>  
+        <form class="form" action="comfirmation.html" method="POST">
             <fieldset>
                 <legend>Customer Information</legend>
-
                 <ul style="list-style-type: none;">
                     <li>
-                        <label for="name">Name (first):</label>
+                        <label for="name">First Name:</label>
                         <input type="text" id="name" name="user.name" />
                     </li>
                     <li>
-                        <label for="lastname">Name (last):</label>
+                        <label for="lastname">Last Name:</label>
                         <input type="text" id="lastname" name="user.lastname">
-
                     </li>
                     <li>
                         <label for="phone number">Phone Number:</label>
@@ -56,79 +49,55 @@
                 </ul>
             </fieldset>
         </form>
-
-        <form action="" method="POST">
+        <form class="details" action="comfirmation.html" method="POST">
             <fieldset>
                 <legend>Details</legend>
                 <ul style="list-style-type: none;">
-
-                    <li><label for="payment">Pay by hour or project?</label></li>
-
+                    <li><h2 id="description">Pay by hour or project:</h2></li>
                     <li><input type="radio" id="hour" name="user.hour">Hour</li>
-
                     <li><input type="radio" id="project" name="user.project">Project</li>
-
-
-                    <li><label for="time">How long will the project take?</label>
-
-                    <li><input type="radio" id="month" name="user.month">A month or more</li>
-
-                    <li><input type="radio" id="week" name="user.week">A week</li>
-
+                    <br>
+                    <li><h2 id="description">How long will the project take:</h2></li>
                     <li><input type="radio" id="day" name="user.day">A day</li>
-
-
-                    <li><label for="comments">Please insert your comments here:</label></li>
-
-                    <li><input type="text" id="comments" name="user.comments"></li>
-
-
-
-                    <li><label for="services">Services Required:</label></li>
-
+                    <li><input type="radio" id="week" name="user.week">A week</li>
+                    <li><input type="radio" id="month" name="user.month">A month or more</li>
+                    <li><label for="comments">Other/Requests:</label></li>
+                    <li><textarea name="comments" id="" cols="60" rows="10"></textarea></li>
+                    <br>
+                    <li><h2 id="description">Services Required:</h2></li>
                     <li><input type="checkbox" id="photography" name="user.photography">Photography</li>
-
                     <li><input type="checkbox" id="cinematography" name="user.cinematography">Cinematography</li>
-
                     <li><input type="checkbox" id="filming" name="user.filming">Filming</li>
-
-                    <li><input type="checkbox" id="starboard" name="user.starboard">Star Board</li>
-
+                    <li><input type="checkbox" id="starboard" name="user.starboard">Story Boarding</li>
                     <li><input type="checkbox" id="other" name="user.other">Other</li>
-
-
-
-                    <li><label for="services">Type of Project:</label></li>
-
+                    <br>
+                    <li><h2 id="description">Type of project:</h2></li>
                     <li><input type="checkbox" id="wedding" name="user.wedding">Wedding</li>
-
                     <li><input type="checkbox" id="promo" name="user.promo">Promotion video</li>
-
                     <li><input type="checkbox" id="ad" name="user.ad">Advertisement</li>
-
                     <li><input type="checkbox" id="commercial" name="user.commercial">Commercial</li>
-
                     <li><input type="checkbox" id="short film" name="user.shortfilm">Short Film</li>
-
-
-
-
-                    <li class="button">
-                        <button type="submit">Submit</button></li>
-
-
-
-
-
-
-                </ul>
-
-
+                    <br>
+                    <li><h2 id="description">Pay by hour or project:</h2></li>
+                    <li><input type="radio" id="basic" name="user.basic">Basic</li>
+                    <li><input type="radio" id="amateur" name="user.amatuer">Amateur</li>
+                    <li><input type="radio" id="professional" name="user.professional">Professional</li>
+                    <li>
+                        <button type="submit" class="submit-button">Submit</button>
+                    </li>
             </fieldset>
-
         </form>
-
-
 </body>
-
+<br>
+<footer class="footer">
+    <ul class="footer-links">
+        <a href="index.html"><img class="header-img2" width="35%" style="margin: 0;" src="img/logo-small.png" alt=""></a><
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="book.html">Book</a></li>
+        <li>6997 N Glen Harbor Blvd, <br> Glendale, AZ 85307</li>
+        <li>(623) 209-8070</li>
+    </ul>
+    <p style="text-align: center;">CINEMA FILMS © 2020</p>
+</footer>
 </html>
