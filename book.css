@@ -307,3 +307,96 @@ a img .header-img2{
     color: #061826;
     text-decoration: none;
 }
+
+@media (max-width: 479px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(4, auto);
+        justify-items: stretch;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        grid-template-areas: 
+            "img1"
+            "img2"
+            "img3"
+            "img4"
+        }
+    
+    .cell {
+        margin: 1px;
+        width: 500px;
+    } 
+    
+    .image-1 {
+        grid-area: img1;
+        grid-column: 1/1;
+        grid-row: 1/1;
+    }
+    
+    .image-2 {
+        grid-area: img2;
+        grid-column: 1/1;
+        grid-row: 2/3;
+    }
+    
+    .image-3 {
+        grid-area: img3;
+        grid-column: 1/1;
+        grid-row: 3/4;
+    }
+    
+    .image-4 {
+        grid-area: img4;
+        grid-column: 1/1;
+        grid-row: 4/5;
+    }
+
+    .container img {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    #title {
+        font-size: 2rem;
+    }
+
+    #description2 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    nav input{
+        display: none;
+    }
+
+    nav ul li a {
+        font-size: 2rem;
+        text-align: center;
+        margin: 1.5rem;
+    }
+
+    #vid1 {
+        width: 70%;
+    }
+
+    #vid2 {
+        width: 70%;
+    }
+
+    footer img {
+        display: none;
+    }
+
+    nav {
+        width: 100%;
+        margin: 0;
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
